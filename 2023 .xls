@@ -1,0 +1,937 @@
+<style type="text/css">
+	
+body
+{
+	font-weight: normal;
+	font-size: 0.7em;
+	word-spacing: normal;
+	text-transform: none;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	letter-spacing: normal;
+	background-color: #ffffff;
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	left: 0px;
+	right: 0px;
+	border: 0px;
+}
+
+/* Panel Historial */
+#PnlHistory
+{    
+    background-color: #ffffff;
+}
+
+.History
+{
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+}
+
+.History tr
+{
+    height: 20px;
+}
+
+.History tr.alt
+{
+}
+
+.History td
+{
+    border-left: solid 1px #dddddd;
+    border-right: solid 1px #dddddd;
+}
+/* Panel Historial - Fin */
+
+/* Panel Datos */
+#PnlData
+{
+    background-color: #ffffff;
+}
+
+.MapTable
+{
+    background-color: #3a6ea5;
+    color: #ffffff;
+    border-collapse: collapse;
+    border-width: 0px;
+}
+
+.MapTable tr
+{
+    height: 18px;
+}
+
+.MapTable td
+{
+    border: solid 1px #dddddd;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.Data
+{    
+    width: 100%;
+    border-collapse: collapse;
+    border-width: 0px;
+}
+
+.Data tr
+{
+    cursor: pointer;    
+    height: 22px;
+    text-align: right;
+}
+
+.Data tr.alt
+{
+}
+
+.Data tr.More
+{
+    text-align: left;
+    height: auto;
+    background-color: #f1f1f1;    
+}
+
+.Data tr.More td
+{
+    padding-left: 4px;
+}
+
+.Data td
+{
+    border: solid 1px #dddddd;
+}
+/* Panel Datos - Fin */
+
+/* Cabecera */
+#hd
+{
+    font-size: 8pt;   
+}
+
+#hd .title
+{
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+#hd .subtitle
+{
+    font-size: 8pt;
+    font-family: Verdana;
+}
+
+#hd .fecha
+{
+    font-size: 8pt;
+}
+
+#hd span.value
+{
+    font-size: 10pt;
+}
+
+/* Cabecera - End */
+</style><body>
+	<table id="hd">
+		<tr>
+			<td colspan="9"><div class='title'><img src='../Images/Transparencia.gif' alt='' height='40' /><br /><br />Consulta Amigable (Mensual)</div><div class='subtitle'>Consulta de Ejecución del Gasto</div><br /><div class='fecha'>Fecha de la Consulta: 25-octubre-2026</div><br /><b>Año de Ejecución: <span class='value'>2023</span><br />Incluye: <span class='value'>Actividades y Proyectos</span></b></td>
+		</tr>
+	</table>
+	
+                    <table class="History" cellspacing="0" cellpadding="1">
+                
+                    <tr align="right">
+                        
+                        <td align="left" style="font-size: 7pt; width: auto">
+                            TOTAL
+                            
+                            
+                            
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            214,790,274,052
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            249,947,413,952
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            235,744,855,767
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            228,519,134,098
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            225,800,663,054
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            222,978,740,044
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            222,533,279,212
+                        </td>
+                        <td align="right" style="width: 50px; white-space: nowrap">&nbsp;89.2</td>
+                    </tr>
+                
+                    <tr align="right" class="alt">
+                        
+                        <td align="left" style="font-size: 7pt; width: auto">
+                            Nivel de Gobierno M: GOBIERNOS LOCALES
+                            
+                            
+                            
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            29,796,996,756
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            49,738,851,508
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            44,727,890,329
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            40,194,934,584
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            38,249,975,764
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            36,105,323,252
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            36,055,554,175
+                        </td>
+                        <td align="right" style="width: 50px; white-space: nowrap">&nbsp;72.6</td>
+                    </tr>
+                
+                    <tr align="right">
+                        
+                        <td align="left" style="font-size: 7pt; width: auto">
+                            Gob.Loc./Mancom. M: MUNICIPALIDADES
+                            
+                            
+                            
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            29,796,996,756
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            49,715,430,302
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            44,705,539,214
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            40,172,602,241
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            38,235,807,134
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            36,093,778,214
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            36,044,011,260
+                        </td>
+                        <td align="right" style="width: 50px; white-space: nowrap">&nbsp;72.6</td>
+                    </tr>
+                
+                    <tr align="right" class="alt">
+                        
+                        <td align="left" style="font-size: 7pt; width: auto">
+                            Departamento 22: SAN MARTIN
+                            
+                            
+                            
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            640,359,232
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            1,056,415,375
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            1,007,120,653
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            971,542,560
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            945,931,958
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            849,346,549
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            848,859,678
+                        </td>
+                        <td align="right" style="width: 50px; white-space: nowrap">&nbsp;80.4</td>
+                    </tr>
+                
+                    <tr align="right">
+                        
+                        <td align="left" style="font-size: 7pt; width: auto">
+                            Provincia 2203: EL DORADO
+                            
+                            
+                            
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            23,537,987
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            41,785,941
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            39,686,947
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            39,319,095
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            33,504,090
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            33,368,770
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            33,285,518
+                        </td>
+                        <td align="right" style="width: 50px; white-space: nowrap">&nbsp;79.9</td>
+                    </tr>
+                
+                    <tr align="right" class="alt">
+                        
+                        <td align="left" style="font-size: 7pt; width: auto">
+                            Municipalidad 220301-301713: MUNICIPALIDAD PROVINCIAL DE EL DORADO
+                            
+                            
+                            
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            10,884,055
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            14,025,252
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            13,712,356
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            13,631,334
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            13,388,910
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            13,361,313
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            13,282,571
+                        </td>
+                        <td align="right" style="width: 50px; white-space: nowrap">&nbsp;95.3</td>
+                    </tr>
+                
+                    </table>
+                <table id="ctl00_CPH1_Mt0" class="MapTable" style="width:100%;">
+		<tr id="ctl00_CPH1_Mt0_Row0">
+			<td id="ctl00_CPH1_Mt0_td1" title="Concepto" rowspan="2" onclick="__doPostBack(&#39;ctl00$CPH1$Mt0$td1&#39;,&#39;&#39;)" onmouseover="this.style.backgroundColor = &#39;#D74F2A&#39;;" onmouseout="this.style.backgroundColor = &#39;&#39;;" style="cursor:hand;">Categoría Presupuestal</td><td id="ctl00_CPH1_Mt0_td2" title="Presupuesto Institucional de Apertura" rowspan="2" onclick="__doPostBack(&#39;ctl00$CPH1$Mt0$td2&#39;,&#39;&#39;)" onmouseover="this.style.backgroundColor = &#39;#D74F2A&#39;;" onmouseout="this.style.backgroundColor = &#39;&#39;;" style="width:100px;white-space:nowrap;cursor:hand;">PIA</td><td id="ctl00_CPH1_Mt0_td3" title="Presupuesto Institucional Modificado" rowspan="2" onclick="__doPostBack(&#39;ctl00$CPH1$Mt0$td3&#39;,&#39;&#39;)" onmouseover="this.style.backgroundColor = &#39;#D74F2A&#39;;" onmouseout="this.style.backgroundColor = &#39;&#39;;" style="width:100px;white-space:nowrap;cursor:hand;">PIM</td><td id="ctl00_CPH1_Mt0_td9" rowspan="2" onclick="__doPostBack(&#39;ctl00$CPH1$Mt0$td9&#39;,&#39;&#39;)" onmouseover="this.style.backgroundColor = &#39;#D74F2A&#39;;" onmouseout="this.style.backgroundColor = &#39;&#39;;" style="width:100px;cursor:hand;">Certificación</td><td id="ctl00_CPH1_Mt0_td4" rowspan="2" onclick="__doPostBack(&#39;ctl00$CPH1$Mt0$td4&#39;,&#39;&#39;)" onmouseover="this.style.backgroundColor = &#39;#D74F2A&#39;;" onmouseout="this.style.backgroundColor = &#39;&#39;;" style="width:100px;cursor:hand;">Compromiso Anual</td><td title="Ejecución de Gastos en las diferentes fases" colspan="3">
+                                Ejecución
+                                 </td><td id="ctl00_CPH1_Mt0_td8" rowspan="2" onclick="__doPostBack(&#39;ctl00$CPH1$Mt0$td8&#39;,&#39;&#39;)" onmouseover="this.style.backgroundColor = &#39;#D74F2A&#39;;" onmouseout="this.style.backgroundColor = &#39;&#39;;" style="width:50px;cursor:hand;">Avance %</td>
+		</tr><tr id="ctl00_CPH1_Mt0_Row1">
+			<td id="ctl00_CPH1_Mt0_td5" onclick="__doPostBack(&#39;ctl00$CPH1$Mt0$td5&#39;,&#39;&#39;)" onmouseover="this.style.backgroundColor = &#39;#D74F2A&#39;;" onmouseout="this.style.backgroundColor = &#39;&#39;;" style="width:100px;cursor:hand;">Atención de Compromiso Mensual</td><td id="ctl00_CPH1_Mt0_td6" onclick="__doPostBack(&#39;ctl00$CPH1$Mt0$td6&#39;,&#39;&#39;)" onmouseover="this.style.backgroundColor = &#39;#D74F2A&#39;;" onmouseout="this.style.backgroundColor = &#39;&#39;;" style="width:100px;white-space:nowrap;cursor:hand;">Devengado</td><td id="ctl00_CPH1_Mt0_td7" onclick="__doPostBack(&#39;ctl00$CPH1$Mt0$td7&#39;,&#39;&#39;)" onmouseover="this.style.backgroundColor = &#39;#D74F2A&#39;;" onmouseout="this.style.backgroundColor = &#39;&#39;;" style="width:100px;white-space:nowrap;cursor:hand;">Girado</td>
+		</tr>
+	</table>
+                            <table class="Data" cellspacing="0" cellpadding="1">
+                        
+                            <tr id="tr0" onclick='kCod="0016";tr_clk(0, this)'
+                                onmouseover="tr_over(this)" onmouseout="tr_out(this)">
+                                
+                                <td align="left" style="width: auto">
+                                    0016: TBC-VIH/SIDA
+                                    
+                                </td>
+                                <td style="white-space: nowrap; width: 100px">
+                                    33,969
+                                </td>
+                                <td style="white-space: nowrap; width: 100px">
+                                    33,969
+                                </td>
+                                <td style="white-space: nowrap; width: 100px">
+                                    33,960
+                                </td>
+                                <td style="white-space: nowrap; width: 100px">
+                                    33,960
+                                </td>
+                                <td style="white-space: nowrap; width: 100px">
+                                    33,960
+                                </td>
+                                <td style="white-space: nowrap; width: 100px">
+                                    33,960
+                                </td>
+                                <td style="white-space: nowrap; width: 100px">
+                                    33,960
+                                </td>
+                                <td style="white-space: nowrap; width: 50px">&nbsp;
+                           100.0
+                                </td>
+                            </tr>
+                            
+                        
+                            <tr class="alt" id="tr1" onclick='kCod="0030";tr_clk(1, this)'
+                                onmouseover="tr_over(this)" onmouseout="tr_out(this)">
+                                
+                                <td align="left">
+                                    0030: REDUCCION DE DELITOS Y FALTAS QUE AFECTAN LA SEGURIDAD CIUDADANA
+                                    
+                                </td>
+                                <td>
+                                    459,764
+                                </td>
+                                <td>
+                                    497,837
+                                </td>
+                                <td>
+                                    497,813
+                                </td>
+                                <td>
+                                    497,813
+                                </td>
+                                <td>
+                                    495,243
+                                </td>
+                                <td>
+                                    495,243
+                                </td>
+                                <td>
+                                    495,243
+                                </td>
+                                <td>&nbsp;
+                           99.5
+                                </td>
+                            </tr>
+                            
+                        
+                            <tr class="alt" id="tr2" onclick='kCod="0036";tr_clk(2, this)'
+                                onmouseover="tr_over(this)" onmouseout="tr_out(this)">
+                                
+                                <td align="left">
+                                    0036: GESTION INTEGRAL DE RESIDUOS SOLIDOS
+                                    
+                                </td>
+                                <td>
+                                    435,626
+                                </td>
+                                <td>
+                                    545,824
+                                </td>
+                                <td>
+                                    542,582
+                                </td>
+                                <td>
+                                    542,442
+                                </td>
+                                <td>
+                                    542,336
+                                </td>
+                                <td>
+                                    542,335
+                                </td>
+                                <td>
+                                    542,335
+                                </td>
+                                <td>&nbsp;
+                           99.4
+                                </td>
+                            </tr>
+                            
+                        
+                            <tr class="alt" id="tr3" onclick='kCod="0039";tr_clk(3, this)'
+                                onmouseover="tr_over(this)" onmouseout="tr_out(this)">
+                                
+                                <td align="left">
+                                    0039: MEJORA DE LA SANIDAD ANIMAL
+                                    
+                                </td>
+                                <td>
+                                    146,653
+                                </td>
+                                <td>
+                                    14,258
+                                </td>
+                                <td>
+                                    14,258
+                                </td>
+                                <td>
+                                    14,258
+                                </td>
+                                <td>
+                                    14,258
+                                </td>
+                                <td>
+                                    14,258
+                                </td>
+                                <td>
+                                    14,258
+                                </td>
+                                <td>&nbsp;
+                           100.0
+                                </td>
+                            </tr>
+                            
+                        
+                            <tr class="alt" id="tr4" onclick='kCod="0040";tr_clk(4, this)'
+                                onmouseover="tr_over(this)" onmouseout="tr_out(this)">
+                                
+                                <td align="left">
+                                    0040: MEJORA Y MANTENIMIENTO DE LA SANIDAD VEGETAL
+                                    
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td>
+                                    15,000
+                                </td>
+                                <td>
+                                    15,000
+                                </td>
+                                <td>
+                                    15,000
+                                </td>
+                                <td>
+                                    15,000
+                                </td>
+                                <td>
+                                    15,000
+                                </td>
+                                <td>
+                                    15,000
+                                </td>
+                                <td>&nbsp;
+                           100.0
+                                </td>
+                            </tr>
+                            
+                        
+                            <tr class="alt" id="tr5" onclick='kCod="0068";tr_clk(5, this)'
+                                onmouseover="tr_over(this)" onmouseout="tr_out(this)">
+                                
+                                <td align="left">
+                                    0068: REDUCCION DE VULNERABILIDAD Y ATENCION DE EMERGENCIAS POR DESASTRES
+                                    
+                                </td>
+                                <td>
+                                    82,756
+                                </td>
+                                <td>
+                                    615,469
+                                </td>
+                                <td>
+                                    612,267
+                                </td>
+                                <td>
+                                    612,267
+                                </td>
+                                <td>
+                                    598,638
+                                </td>
+                                <td>
+                                    588,548
+                                </td>
+                                <td>
+                                    588,548
+                                </td>
+                                <td>&nbsp;
+                           95.6
+                                </td>
+                            </tr>
+                            
+                        
+                            <tr class="alt" id="tr6" onclick='kCod="0082";tr_clk(6, this)'
+                                onmouseover="tr_over(this)" onmouseout="tr_out(this)">
+                                
+                                <td align="left">
+                                    0082: PROGRAMA NACIONAL DE SANEAMIENTO URBANO
+                                    
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td>
+                                    78,545
+                                </td>
+                                <td>
+                                    78,500
+                                </td>
+                                <td>
+                                    78,500
+                                </td>
+                                <td>
+                                    78,500
+                                </td>
+                                <td>
+                                    66,800
+                                </td>
+                                <td>
+                                    66,800
+                                </td>
+                                <td>&nbsp;
+                           85.0
+                                </td>
+                            </tr>
+                            
+                        
+                            <tr class="alt" id="tr7" onclick='kCod="0083";tr_clk(7, this)'
+                                onmouseover="tr_over(this)" onmouseout="tr_out(this)">
+                                
+                                <td align="left">
+                                    0083: PROGRAMA NACIONAL DE SANEAMIENTO RURAL
+                                    
+                                </td>
+                                <td>
+                                    121,550
+                                </td>
+                                <td>
+                                    529,391
+                                </td>
+                                <td>
+                                    529,391
+                                </td>
+                                <td>
+                                    528,987
+                                </td>
+                                <td>
+                                    378,987
+                                </td>
+                                <td>
+                                    378,987
+                                </td>
+                                <td>
+                                    378,987
+                                </td>
+                                <td>&nbsp;
+                           71.6
+                                </td>
+                            </tr>
+                            
+                        
+                            <tr class="alt" id="tr8" onclick='kCod="0090";tr_clk(8, this)'
+                                onmouseover="tr_over(this)" onmouseout="tr_out(this)">
+                                
+                                <td align="left">
+                                    0090: LOGROS DE APRENDIZAJE DE ESTUDIANTES DE LA EDUCACION BASICA REGULAR
+                                    
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td>
+                                    203,652
+                                </td>
+                                <td>
+                                    203,231
+                                </td>
+                                <td>
+                                    203,231
+                                </td>
+                                <td>
+                                    203,231
+                                </td>
+                                <td>
+                                    203,231
+                                </td>
+                                <td>
+                                    203,231
+                                </td>
+                                <td>&nbsp;
+                           99.8
+                                </td>
+                            </tr>
+                            
+                        
+                            <tr class="alt" id="tr9" onclick='kCod="0101";tr_clk(9, this)'
+                                onmouseover="tr_over(this)" onmouseout="tr_out(this)">
+                                
+                                <td align="left">
+                                    0101: INCREMENTO DE LA PRACTICA DE ACTIVIDADES FISICAS, DEPORTIVAS Y RECREATIVAS EN LA POBLACION PERUANA
+                                    
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td>
+                                    10,000
+                                </td>
+                                <td>
+                                    10,000
+                                </td>
+                                <td>
+                                    10,000
+                                </td>
+                                <td>
+                                    10,000
+                                </td>
+                                <td>
+                                    10,000
+                                </td>
+                                <td>
+                                    10,000
+                                </td>
+                                <td>&nbsp;
+                           100.0
+                                </td>
+                            </tr>
+                            
+                        
+                            <tr class="alt" id="tr10" onclick='kCod="0138";tr_clk(10, this)'
+                                onmouseover="tr_over(this)" onmouseout="tr_out(this)">
+                                
+                                <td align="left">
+                                    0138: REDUCCION DEL COSTO, TIEMPO E INSEGURIDAD EN EL SISTEMA DE TRANSPORTE
+                                    
+                                </td>
+                                <td>
+                                    1,094,604
+                                </td>
+                                <td>
+                                    2,529,459
+                                </td>
+                                <td>
+                                    2,430,318
+                                </td>
+                                <td>
+                                    2,430,318
+                                </td>
+                                <td>
+                                    2,430,297
+                                </td>
+                                <td>
+                                    2,428,035
+                                </td>
+                                <td>
+                                    2,349,293
+                                </td>
+                                <td>&nbsp;
+                           96.0
+                                </td>
+                            </tr>
+                            
+                        
+                            <tr class="alt" id="tr11" onclick='kCod="0142";tr_clk(11, this)'
+                                onmouseover="tr_over(this)" onmouseout="tr_out(this)">
+                                
+                                <td align="left">
+                                    0142: ACCESO DE PERSONAS ADULTAS MAYORES A SERVICIOS ESPECIALIZADOS
+                                    
+                                </td>
+                                <td>
+                                    21,720
+                                </td>
+                                <td>
+                                    16,033
+                                </td>
+                                <td>
+                                    16,032
+                                </td>
+                                <td>
+                                    16,032
+                                </td>
+                                <td>
+                                    16,032
+                                </td>
+                                <td>
+                                    16,032
+                                </td>
+                                <td>
+                                    16,032
+                                </td>
+                                <td>&nbsp;
+                           100.0
+                                </td>
+                            </tr>
+                            
+                        
+                            <tr class="alt" id="tr12" onclick='kCod="0148";tr_clk(12, this)'
+                                onmouseover="tr_over(this)" onmouseout="tr_out(this)">
+                                
+                                <td align="left">
+                                    0148: REDUCCION DEL TIEMPO, INSEGURIDAD Y COSTO AMBIENTAL EN EL TRANSPORTE URBANO
+                                    
+                                </td>
+                                <td>
+                                    2,338,732
+                                </td>
+                                <td>
+                                    1,164,373
+                                </td>
+                                <td>
+                                    1,162,659
+                                </td>
+                                <td>
+                                    1,162,659
+                                </td>
+                                <td>
+                                    1,159,592
+                                </td>
+                                <td>
+                                    1,159,592
+                                </td>
+                                <td>
+                                    1,159,592
+                                </td>
+                                <td>&nbsp;
+                           99.6
+                                </td>
+                            </tr>
+                            
+                        
+                            <tr class="alt" id="tr13" onclick='kCod="0150";tr_clk(13, this)'
+                                onmouseover="tr_over(this)" onmouseout="tr_out(this)">
+                                
+                                <td align="left">
+                                    0150: INCREMENTO EN EL ACCESO DE LA POBLACION A LOS SERVICIOS EDUCATIVOS PUBLICOS DE LA EDUCACION BASICA
+                                    
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td>
+                                    39,000
+                                </td>
+                                <td>
+                                    38,750
+                                </td>
+                                <td>
+                                    38,750
+                                </td>
+                                <td>
+                                    38,750
+                                </td>
+                                <td>
+                                    38,750
+                                </td>
+                                <td>
+                                    38,750
+                                </td>
+                                <td>&nbsp;
+                           99.4
+                                </td>
+                            </tr>
+                            
+                        
+                            <tr class="alt" id="tr14" onclick='kCod="1001";tr_clk(14, this)'
+                                onmouseover="tr_over(this)" onmouseout="tr_out(this)">
+                                
+                                <td align="left">
+                                    1001: PRODUCTOS ESPECIFICOS PARA DESARROLLO INFANTIL TEMPRANO
+                                    
+                                </td>
+                                <td>
+                                    49,830
+                                </td>
+                                <td>
+                                    1,937
+                                </td>
+                                <td>
+                                    1,937
+                                </td>
+                                <td>
+                                    1,937
+                                </td>
+                                <td>
+                                    1,937
+                                </td>
+                                <td>
+                                    1,937
+                                </td>
+                                <td>
+                                    1,937
+                                </td>
+                                <td>&nbsp;
+                           100.0
+                                </td>
+                            </tr>
+                            
+                        
+                            <tr class="alt" id="tr15" onclick='kCod="9001";tr_clk(15, this)'
+                                onmouseover="tr_over(this)" onmouseout="tr_out(this)">
+                                
+                                <td align="left">
+                                    9001: ACCIONES CENTRALES
+                                    
+                                </td>
+                                <td>
+                                    2,667,563
+                                </td>
+                                <td>
+                                    2,337,128
+                                </td>
+                                <td>
+                                    2,250,182
+                                </td>
+                                <td>
+                                    2,248,931
+                                </td>
+                                <td>
+                                    2,232,873
+                                </td>
+                                <td>
+                                    2,232,829
+                                </td>
+                                <td>
+                                    2,232,829
+                                </td>
+                                <td>&nbsp;
+                           95.5
+                                </td>
+                            </tr>
+                            
+                        
+                            <tr class="alt" id="tr16" onclick='kCod="9002";tr_clk(16, this)'
+                                onmouseover="tr_over(this)" onmouseout="tr_out(this)">
+                                
+                                <td align="left">
+                                    9002: ASIGNACIONES PRESUPUESTARIAS QUE NO RESULTAN EN PRODUCTOS
+                                    
+                                </td>
+                                <td>
+                                    3,431,288
+                                </td>
+                                <td>
+                                    5,393,377
+                                </td>
+                                <td>
+                                    5,275,476
+                                </td>
+                                <td>
+                                    5,196,249
+                                </td>
+                                <td>
+                                    5,139,275
+                                </td>
+                                <td>
+                                    5,135,776
+                                </td>
+                                <td>
+                                    5,135,776
+                                </td>
+                                <td>&nbsp;
+                           95.2
+                                </td>
+                            </tr>
+                            
+                        
+                            </table>
+                        
+</body>
